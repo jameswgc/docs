@@ -45,15 +45,11 @@
             ]
           },
           {
-            "group": "Wild Goat NFT",
+            "group": "Other",
             "pages": [
-              "Wild-Goat-NFT"
-            ]
-          },
-          {
-            "group": "Project History",
-            "pages": [
-              "history/WGC-V1-/-V2"
+              "other/Wild-Goat-NFT",
+              "other/Brand-Kit",
+              "other/Project-History"
             ]
           }
         ]
