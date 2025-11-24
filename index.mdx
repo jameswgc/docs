@@ -1,51 +1,157 @@
 ---
 title: "Wild Goat Coin"
+description: "Decentralized currency of the future – multi-chain, LayerZero-native, and built for real liquidity."
 mode: "custom"
 ---
 
-{/* Hero Section */}
-<div className="w-full py-24 px-6 text-center bg-gradient-to-b from-[#e1f5ef] to-transparent">
-  <h1 className="text-5xl font-bold mb-4">
-    Welcome to Wild Goat Coin Docs
-  </h1>
+{/* HERO */}
+<section className="w-full bg-gradient-to-b from-[#e4f7f0] to-white">
+  <div className="max-w-5xl mx-auto px-6 pt-24 pb-16 text-center">
+    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border text-xs font-medium mb-4 bg-white/70">
+      <span className="h-2 w-2 rounded-full bg-emerald-500" />
+      LayerZero OFT · Multi-chain · Community owned
+    </div>
 
-  <p className="text-lg opacity-70 max-w-2xl mx-auto">
-    Technical documentation for the ₩ILD GOAT COIN ecosystem — 
-    multi-chain deployments, OFT architecture, liquidity, and developer tools.
+    <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight">
+      Decentralized Currency of the Future
+    </h1>
+
+    <p className="mt-4 text-base sm:text-lg text-slate-600 max-w-2xl mx-auto">
+      Wild Goat Coin (WGC) is a premium internet-native memecoin designed to live
+      across chains, backed by real liquidity, and engineered for long-term sustainability
+      — not just hype.
+    </p>
+
+    <div className="mt-8 flex flex-wrap justify-center gap-4">
+      <a
+        href="/concept"
+        className="px-6 py-3 rounded-lg bg-emerald-600 text-white text-sm font-medium shadow-sm hover:bg-emerald-700 transition"
+      >
+        Read the Vision
+      </a>
+      <a
+        href="/getting-started"
+        className="px-6 py-3 rounded-lg border text-sm font-medium hover:bg-slate-50 transition"
+      >
+        Start Using WGC
+      </a>
+      <a
+        href="/contracts"
+        className="px-6 py-3 rounded-lg border text-sm font-medium hover:bg-slate-50 transition"
+      >
+        View Contracts
+      </a>
+    </div>
+  </div>
+</section>
+
+{/* THREE PILLARS */}
+<section className="max-w-5xl mx-auto px-6 pb-16">
+  <div className="grid gap-6 md:grid-cols-3">
+    <div className="p-5 rounded-xl border bg-white">
+      <h3 className="font-semibold mb-2 text-sm uppercase tracking-wide text-slate-500">
+        Multi-chain by Design
+      </h3>
+      <p className="text-sm text-slate-600">
+        Built as a LayerZero OFT so WGC can move natively between chains like Base,
+        HyperEVM, Avalanche, ZKsync, Solana, Aptos, and more.
+      </p>
+    </div>
+    <div className="p-5 rounded-xl border bg-white">
+      <h3 className="font-semibold mb-2 text-sm uppercase tracking-wide text-slate-500">
+        Liquidity First
+      </h3>
+      <p className="text-sm text-slate-600">
+        Permanently locked core liquidity and automatic buyback-and-burn flows from LP fees
+        create a base of real value, not just speculation.
+      </p>
+    </div>
+    <div className="p-5 rounded-xl border bg-white">
+      <h3 className="font-semibold mb-2 text-sm uppercase tracking-wide text-slate-500">
+        Built for Builders
+      </h3>
+      <p className="text-sm text-slate-600">
+        Clean contracts, transparent architecture, and open docs make it simple to integrate
+        WGC into apps, bots, LP strategies, and tooling.
+      </p>
+    </div>
+  </div>
+</section>
+
+{/* QUICK ENTRY GRID – DOC LINKS */}
+<section className="max-w-6xl mx-auto px-6 pb-24">
+  <h2 className="text-xl font-semibold mb-4">Explore the Docs</h2>
+  <p className="text-sm text-slate-600 mb-6">
+    Go deeper into how Wild Goat Coin works under the hood – from supply and liquidity to
+    cross-chain messaging and developer integrations.
   </p>
-</div>
 
-{/* Card Grid */}
-<div className="max-w-6xl mx-auto px-6 pb-24 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <a href="/getting-started" className="p-6 border rounded-xl bg-white hover:shadow-md transition">
+      <h3 className="font-semibold mb-2">Getting Started</h3>
+      <p className="text-sm text-slate-600">
+        Learn how to buy, bridge, and interact with WGC.
+      </p>
+    </a>
 
-  <a href="/getting-started" className="p-6 border rounded-xl hover:shadow-md transition">
-    <h3 className="font-semibold mb-2">Getting Started</h3>
-    <p className="text-sm opacity-70">Learn how to use, bridge, and interact with WGC.</p>
-  </a>
+    <a href="/tokenomics" className="p-6 border rounded-xl bg-white hover:shadow-md transition">
+      <h3 className="font-semibold mb-2">Tokenomics</h3>
+      <p className="text-sm text-slate-600">
+        Supply, burns, LP structure, and multi-chain economics.
+      </p>
+    </a>
 
-  <a href="/tokenomics" className="p-6 border rounded-xl hover:shadow-md transition">
-    <h3 className="font-semibold mb-2">Tokenomics</h3>
-    <p className="text-sm opacity-70">Supply, burns, LP structure, and multi-chain economics.</p>
-  </a>
+    <a href="/contracts" className="p-6 border rounded-xl bg-white hover:shadow-md transition">
+      <h3 className="font-semibold mb-2">Contract Addresses</h3>
+      <p className="text-sm text-slate-600">
+        On-chain deployments across all supported networks.
+      </p>
+    </a>
 
-  <a href="/contracts" className="p-6 border rounded-xl hover:shadow-md transition">
-    <h3 className="font-semibold mb-2">Contract Addresses</h3>
-    <p className="text-sm opacity-70">All on-chain deployments across Base, HyperEVM, Solana, Aptos, and more.</p>
-  </a>
+    <a href="/layerzero" className="p-6 border rounded-xl bg-white hover:shadow-md transition">
+      <h3 className="font-semibold mb-2">LayerZero Architecture</h3>
+      <p className="text-sm text-slate-600">
+        OFT setup, DVNs, security parameters, and bridging behavior.
+      </p>
+    </a>
 
-  <a href="/layerzero" className="p-6 border rounded-xl hover:shadow-md transition">
-    <h3 className="font-semibold mb-2">LayerZero Architecture</h3>
-    <p className="text-sm opacity-70">Understanding OFT setup, DVNs, security parameters, and bridging behavior.</p>
-  </a>
+    <a href="/liquidity" className="p-6 border rounded-xl bg-white hover:shadow-md transition">
+      <h3 className="font-semibold mb-2">Liquidity & LP Guides</h3>
+      <p className="text-sm text-slate-600">
+        How to provide liquidity on Base, HyperEVM, Avalanche, and ZKsync.
+      </p>
+    </a>
 
-  <a href="/liquidity" className="p-6 border rounded-xl hover:shadow-md transition">
-    <h3 className="font-semibold mb-2">Liquidity & LP Guides</h3>
-    <p className="text-sm opacity-70">How to provide liquidity on Base, HyperEVM, Avalanche, and ZKsync.</p>
-  </a>
+    <a href="/api" className="p-6 border rounded-xl bg-white hover:shadow-md transition">
+      <h3 className="font-semibold mb-2">API & Integrations</h3>
+      <p className="text-sm text-slate-600">
+        Endpoints and examples for analytics, bots, and tools.
+      </p>
+    </a>
+  </div>
+</section>
 
-  <a href="/api" className="p-6 border rounded-xl hover:shadow-md transition">
-    <h3 className="font-semibold mb-2">API & Integrations</h3>
-    <p className="text-sm opacity-70">Examples and endpoints for price feeds, supply charts, and analytics.</p>
-  </a>
+{/* EXTRA EXPLANATION / FUTURE BANNERS */}
+<section className="max-w-5xl mx-auto px-6 pb-24">
+  <h2 className="text-xl font-semibold mb-3">What is Wild Goat Coin?</h2>
+  <p className="text-sm text-slate-600 mb-3">
+    Wild Goat Coin started as a playful memecoin experiment and has evolved into a
+    serious attempt at building a resilient, internet-native currency with deep liquidity,
+    multi-chain reach, and a long-term alignment between holders, LPs, and builders.
+  </p>
+  <p className="text-sm text-slate-600 mb-3">
+    The <strong>GOAT RESET</strong> initiative reduced supply, locked core liquidity, and
+    routed LP fees into automated buyback-and-burn mechanisms on key chains. The result is
+    a memecoin with real fundamentals under the surface – one that can survive multiple
+    cycles, not just one hype phase.
+  </p>
+  <p className="text-sm text-slate-600">
+    These docs focus on the technical side of that vision: how WGC is deployed, bridged,
+    and integrated – and how you can build on top of it.
+  </p>
 
-</div>
+  {/* Placeholder for future banners / charts */}
+  {/* <div className="mt-10 grid gap-4 md:grid-cols-2">
+       Banner / chart components can go here later
+     </div> */}
+</section>
