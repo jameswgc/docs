@@ -16,44 +16,44 @@
           {
             "group": "Introduction",
             "pages": [
-              "introduction/wild-goat-coin",
-              "introduction/wgc-v3"
+              "introduction/Wild-Goat-Coin",
+              "introduction/WGC-V3"
             ]
           },
           {
             "group": "Technical",
             "pages": [
-              "technical/contract-addresses",
-              "technical/architecture",
-              "technical/privacy-layer"
+              "technical/Contract-Addresses",
+              "technical/Architecture",
+              "technical/Privacy-Layer"
             ]
           },
           {
             "group": "Data",
             "pages": [
-              "data/markets",
-              "data/dex-liquidity",
-              "data/other"
+              "data/Markets",
+              "data/DEX-Liquidity",
+              "data/Other"
             ]
           },
           {
             "group": "How To",
             "pages": [
-              "how-to/buy-wild-goat-coin",
-              "how-to/become-a-liquidity-provider",
-              "how-to/contribute-to-the-project"
+              "how-to/Buy-WGC",
+              "how-to/Become-a-Liquidity-Provider",
+              "how-to/Contribute-to-the-Project"
             ]
           },
           {
             "group": "Wild Goat NFT",
             "pages": [
-              "wild-goat-nft"
+              "Wild-Goat-NFT"
             ]
           },
           {
-            "group": "Wild Goat Coin History",
+            "group": "Project History",
             "pages": [
-              "history/wgc-v1-v2"
+              "history/WGC-V1-/-V2"
             ]
           }
         ]
