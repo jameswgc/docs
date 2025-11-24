@@ -1,57 +1,51 @@
 ---
-title: "Introduction"
-description: "Welcome to the new home for your documentation"
+title: "Wild Goat Coin"
 mode: "custom"
 ---
 
-## Setting up
+{/* Hero Section */}
+<div className="w-full py-24 px-6 text-center bg-gradient-to-b from-[#e1f5ef] to-transparent">
+  <h1 className="text-5xl font-bold mb-4">
+    Welcome to Wild Goat Coin Docs
+  </h1>
 
-Get your documentation site up and running in minutes.
+  <p className="text-lg opacity-70 max-w-2xl mx-auto">
+    Technical documentation for the ₩ILD GOAT COIN ecosystem — 
+    multi-chain deployments, OFT architecture, liquidity, and developer tools.
+  </p>
+</div>
 
-<Card title="Start here" icon="rocket" horizontal href="/quickstart">
-  Follow our three step quickstart guide.
-</Card>
+{/* Card Grid */}
+<div className="max-w-6xl mx-auto px-6 pb-24 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
-## Make it yours
+  <a href="/getting-started" className="p-6 border rounded-xl hover:shadow-md transition">
+    <h3 className="font-semibold mb-2">Getting Started</h3>
+    <p className="text-sm opacity-70">Learn how to use, bridge, and interact with WGC.</p>
+  </a>
 
-Design a docs site that looks great and empowers your users.
+  <a href="/tokenomics" className="p-6 border rounded-xl hover:shadow-md transition">
+    <h3 className="font-semibold mb-2">Tokenomics</h3>
+    <p className="text-sm opacity-70">Supply, burns, LP structure, and multi-chain economics.</p>
+  </a>
 
-<Columns cols={2}>
-  <Card title="Edit locally" icon="pen-to-square" href="/development">
-    Edit your docs locally and preview them in real time.
-  </Card>
-  <Card title="Customize your site" icon="palette" href="/essentials/settings">
-    Customize the design and colors of your site to match your brand.
-  </Card>
-  <Card title="Set up navigation" icon="map" href="/essentials/navigation">
-    Organize your docs to help users find what they need and succeed with your product.
-  </Card>
-  <Card title="API documentation" icon="terminal" href="/api-reference/introduction">
-    Auto-generate API documentation from OpenAPI specifications.
-  </Card>
-</Columns>
+  <a href="/contracts" className="p-6 border rounded-xl hover:shadow-md transition">
+    <h3 className="font-semibold mb-2">Contract Addresses</h3>
+    <p className="text-sm opacity-70">All on-chain deployments across Base, HyperEVM, Solana, Aptos, and more.</p>
+  </a>
 
-## Create beautiful pages
+  <a href="/layerzero" className="p-6 border rounded-xl hover:shadow-md transition">
+    <h3 className="font-semibold mb-2">LayerZero Architecture</h3>
+    <p className="text-sm opacity-70">Understanding OFT setup, DVNs, security parameters, and bridging behavior.</p>
+  </a>
 
-Everything you need to create world-class documentation.
+  <a href="/liquidity" className="p-6 border rounded-xl hover:shadow-md transition">
+    <h3 className="font-semibold mb-2">Liquidity & LP Guides</h3>
+    <p className="text-sm opacity-70">How to provide liquidity on Base, HyperEVM, Avalanche, and ZKsync.</p>
+  </a>
 
-<Columns cols={2}>
-  <Card title="Write with MDX" icon="pen-fancy" href="/essentials/markdown">
-    Use MDX to style your docs pages.
-  </Card>
-  <Card title="Code samples" icon="code" href="/essentials/code">
-    Add sample code to demonstrate how to use your product.
-  </Card>
-  <Card title="Images" icon="image" href="/essentials/images">
-    Display images and other media.
-  </Card>
-  <Card title="Reusable snippets" icon="recycle" href="/essentials/reusable-snippets">
-    Write once and reuse across your docs.
-  </Card>
-</Columns>
+  <a href="/api" className="p-6 border rounded-xl hover:shadow-md transition">
+    <h3 className="font-semibold mb-2">API & Integrations</h3>
+    <p className="text-sm opacity-70">Examples and endpoints for price feeds, supply charts, and analytics.</p>
+  </a>
 
-## Need inspiration?
-
-<Card title="See complete examples" icon="stars" href="https://mintlify.com/customers">
-  Browse our showcase of exceptional documentation sites.
-</Card>
+</div>
