@@ -9,9 +9,6 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
-      {
-        "tab": "Documentation",
         "groups": [
           {
             "group": "Introduction",
@@ -41,7 +38,8 @@
             "pages": [
               "how-to/Buy-WGC",
               "how-to/Become-a-Liquidity-Provider",
-              "how-to/Contribute"
+              "how-to/Choose-a-Wallet",
+              "how-to/Participate"
             ]
           },
           {
@@ -52,8 +50,6 @@
               "other/Project-History"
             ]
           }
-        ]
-      }
     ]
   },
   "logo": {
