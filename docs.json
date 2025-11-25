@@ -18,10 +18,11 @@
             ]
           },
           {
-            "group": "Technical",
+            "group": "Technical Architecture",
             "pages": [
               "technical/Contract-Addresses",
-              "technical/Architecture",
+              "technical/Interoperability",
+              "technical/Buybacks",
               "technical/Privacy-Layer"
             ]
           },
